@@ -55,6 +55,7 @@ RUN USERNAME=${user_name} \
 #
 RUN apt-get update -qq && \
   apt-get install -y -qq --no-install-recommends \
+    build-essential \
     cmake \
     g++ \
     gcc && \
