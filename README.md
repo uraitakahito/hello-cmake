@@ -13,7 +13,8 @@ Run docker containers:
 
 Run the following commands inside the Docker containers:
 
-```console 
+```console
+% cmake -DHOGE=hoge -P hello.cmake 
 % cd build
 % cmake ..
 % make
